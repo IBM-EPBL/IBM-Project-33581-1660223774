@@ -1,0 +1,38 @@
+IOT BASED SAFETY GADGET FOR CHILD SAFETY MONITORING AND NOTIFIATIONS
+
+PREREQUISITES - HARDWARE
+
+IBM Watson IoT Platform is a fully managed, cloud-hosted service that makes it simple to derive value from Internet of Things (IoT) devices.
+
+Simply register and connect your device, be it a sensor, a gateway, or something else, to Watson IoT Platform and start sending data securely up to the cloud using the open, lightweight MQTT messaging protocol. You can set up and manage your devices using your online dashboard or our secure APIs, so that your apps can access and use your live and historical data.
+
+IBM Watson IoT Platform - Connecting sensors - Watson IoT Platform connects devices, ingests device data, and transforms that data into meaningful insights. Watson IoT Platform and its additional add on services enable organizations to capture and explore data for devices, equipment, and machines, and discover insights that can drive better decision-making.
+
+The lite service plan provides a free,lightweight development environment to get started with the connectivity capabalities of watson IOT platform.
+
+NODE - RED SERVICE
+
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
+
+Quick Start
+Install Node. js. Download the latest 14. x LTS version of Node. ...
+Install Node-RED. Installing Node-RED as a global module adds the command node-red to your system path. Execute the following at the command prompt: npm install -g --unsafe-perm node-red.
+Run Node-RED. Once installed, you are ready to run Node-RED.
+
+Baic commands one should know to start using node-red
+
+1. Target
+2. login
+3. list
+4. info
+5. enable
+6. disable
+7. search
+8. install
+9. remove
+
+CLOUDANT DOCUMENT DATABASE
+
+IBM Cloudant is a fully managed JSON document database that offers independent serverless scaling of throughput capacity and storage.
+A document is assigned to a particular shard by using consistent hashing of its ID. This assignment means that a document is always stored on a known shard and a known set of servers. Occasionally, shards are rebalanced. Rebalancing involves moving replicas to different servers.
+You can access IBM Cloudant directly by using an HTTP client rather than an IBM Cloudant client library. However, you must handle exchanging and refreshing a time-limited access token by using an IAM API key with the IAM token service. After a token expires, IBM Cloudant returns an HTTP 401 status code
